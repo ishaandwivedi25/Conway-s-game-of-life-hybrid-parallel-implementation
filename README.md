@@ -23,5 +23,9 @@ After that same process is repeated for next iterations
 
 To run the code-
 You need c++ compiler and mpi library 
+
+
 Compilation- mpic++ %Codename.cpp% -O3 -fopenmp
+
+
 Run- mpiexec -np4 ./a.out
