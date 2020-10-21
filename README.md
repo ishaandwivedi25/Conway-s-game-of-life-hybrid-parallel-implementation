@@ -21,11 +21,10 @@ Each process get certain number of rows to process. each thread processes differ
 Process updates it cells based on the given rules then it shares the boundary rows with the neighboring processes and threads speed up the process.
 After that same process is repeated for next iterations
 
+
 To run the code-
 You need c++ compiler and mpi library 
 
-
 Compilation- mpic++ %Codename.cpp% -O3 -fopenmp
-
 
 Run- mpiexec -np4 ./a.out
